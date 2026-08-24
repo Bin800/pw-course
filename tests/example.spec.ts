@@ -6,6 +6,7 @@ test('has title', async ({ page }) => {
   // Expect a title "to contain" a substring.
   await expect(page).toHaveTitle(/Tài liệu học automation test/); //Pass Case
   // await expect(page).toHaveTitle("Tài liệu học automation test"); //Fail case
+  //Thấy comment này trên git thì thành công
 });
 
 test('get started link', async ({ page }) => {
