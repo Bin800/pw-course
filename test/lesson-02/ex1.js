@@ -1,5 +1,6 @@
 const a = 12;
-const name = "my number";
+const myName = "my number";
 const isEven = false;
 
-console.log (a)
+console.log (a);
+console.log (myName)
